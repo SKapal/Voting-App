@@ -1,4 +1,4 @@
-# Voting-App
+# Voting App
 Voting app with node back-end and collaboration using socket.io
 
 ## Features:
