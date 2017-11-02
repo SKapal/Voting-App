@@ -1,0 +1,87 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Assignment 2</title>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.4/socket.io.js"></script>
+	</head>
+	<body>
+		<style>
+			body
+			{
+				background: skyblue;
+			}
+			.p{
+				font-family:georgia;
+				color:#286f9b;
+				font-weight:bold;
+			}
+			h1
+			{
+				font-family:georgia;
+				color:#286f9b;
+				font-size:700%;
+			}
+			h2{
+				font-family:georgia;
+				color:#286f9b;
+				font-size:200%;
+			}
+			.sub{
+				background-color: #286f9b;
+				border: none;
+				color: white;
+			}
+			.button1{
+				background-color: #cccccc;
+				border: none;
+				color: white;
+				padding: 30px 300px;
+				margin-bottom:10px;
+				margin-right: 10px;
+				text-align: center;
+				text-decoration: none;
+				display: inline-block;
+				font-size: 30px;
+			}
+			.button2{
+				background-color: #cccccc;
+				border: none;
+				color: white;
+				padding: 30px 300px;
+				margin-right: 10px;
+				margin-bottom:10px;
+				text-align: center;
+				text-decoration: none;
+				display: inline-block;
+				font-size: 30px;
+			}
+			.radio {
+				display:block;
+				position:relative;
+				padding-left:0px;
+				margin-bottom:0px;
+				cursor:pointer;
+				font-size:22px;
+			}
+
+		</style> 
+
+		<h1 style = "text-align:center">Better Team?</h1>
+		<h2 id="msg" style = "text-align:center">Please enter your name to cast vote:</h2>
+		<div style = "text-align:center">
+  			<p class="p" style="display:inline">Name:</p> <input id="text" type="text" name="name">
+  			<input class="sub" id="submit" type="submit" value="Submit" onClick = "handleSubmitButton()">
+		</div>
+		<br>
+		<canvas id="myCanvas" width="800" height="600">
+		</canvas>
+		<br>
+		<div style = "text-align:center">
+			<br>
+			<button id = "button1" class = "button1" type = "Option1" id="Option1" value="Option 1" onClick="handleOption1Button()" />Warriors
+			<button id = "button2" class = "button2" type = "Option2" id="Option2" value ="Option 2" onClick="handleOption2Button()" />Cavaliers
+		</div>
+
+		<script type="text/javascript" src="assignment2.js"></script>
+	</body>
+</html>
