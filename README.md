@@ -7,7 +7,7 @@ Voting app with node back-end and client-server collaboration using socket.io
 - One vote per unique name
 - Results shown in real time across multiple clients
 
-### View Site:
+## View Site:
 https://sahil-kapal-app-1.herokuapp.com
 
 ## To Launch:
