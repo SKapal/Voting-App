@@ -19,4 +19,4 @@ https://sahil-kapal-app-1.herokuapp.com
 - Enter your name and submit to gain the ability to cast a vote between one of the two options
 - Once voted, you will not be allowed to vote again under the same name entered
 
-[!alt_text](https://i.imgur.com/Lt5P0FM.png)
+![alt_text](https://i.imgur.com/Lt5P0FM.png)
