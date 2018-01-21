@@ -94,9 +94,9 @@ var handleSubmitButton=function(){
 
 var handleOption1Button= function(){
 	/*
-		Calculating the length of bars based on
-		vote casted
-	*/
+	 *	Calculating the length of bars based on
+	 *	vote casted
+	 */
 	if(userBase[text.value]){
 		countB1++;
 		countTotal++;
